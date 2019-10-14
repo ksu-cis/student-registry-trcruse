@@ -16,6 +16,13 @@ namespace StudentRegister
         
         public string Semester { get; protected set; }
         
+        /// <summary>
+        /// Constructor builds out these properties
+        /// </summary>
+        /// <param name="course"></param>
+        /// <param name="hours"></param>
+        /// <param name="grade"></param>
+        /// <param name="semester"></param>
         public CourseResult(string course, uint hours, Grade grade, string semester)
         {
             Course = course;
